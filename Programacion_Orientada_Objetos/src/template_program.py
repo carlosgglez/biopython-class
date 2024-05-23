@@ -62,13 +62,13 @@ SEE ALSO
 # ===========================================================================
 
 
-# step 1.
+class animal():
+    
+    def __init__(self, nombre, edad):
+        self.nombre = nombre
+        self.edad = edad
 
-
-# step 2.
-
-
-# step 3.
-
+    def haz_ruido(self):
+        print("AAAAAAAAAAAAH")
 
 
